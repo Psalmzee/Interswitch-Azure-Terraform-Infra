@@ -1,13 +1,13 @@
-variable "resource_group_name" {
-  default = "aks-dev-resource-group"
-}
+
 
 variable "location" {
-  default = "West Europe"
+  description = "The Azure region to deploy resources into"
+  type        = string
+  default     = "West Europe"
 }
 
 variable "cluster_name" {
-  default = "aks-dev-cluster"
+  default = "aks-springboot-dev"
 }
 
 variable "acr_name" {
