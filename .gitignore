@@ -1,0 +1,19 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform/
+terraform.tfstate.backup
+.terraform.lock.hcl
+
+# Ignore Mac OS files
+.DS_Store
+
+# Ignore Windows files
+Thumbs.db
