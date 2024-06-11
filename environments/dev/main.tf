@@ -1,6 +1,6 @@
 
 resource "azurerm_resource_group" "dev" {
-  name     = "aks-dev-resource-group"
+  name     = "aks-springboot-dev-rg"
   location = var.location
 }
 

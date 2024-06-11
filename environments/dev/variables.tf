@@ -11,5 +11,5 @@ variable "cluster_name" {
 }
 
 variable "acr_name" {
-  default = "myacrregistrydev"
+  default = "springbootdevacr"
 }
